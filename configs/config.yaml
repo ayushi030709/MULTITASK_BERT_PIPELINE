@@ -1,0 +1,10 @@
+model:
+  name: bert-base-uncased
+  max_length: 256
+
+training:
+  batch_size: 16
+  learning_rate: 0.00002
+  epochs: 3
+
+seed: 42

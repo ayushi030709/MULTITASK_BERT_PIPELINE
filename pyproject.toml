@@ -1,0 +1,14 @@
+[project]
+name = "bert-multitask-pipeline"
+version = "0.1.0"
+description = "Production Ready BERT Multi-Task NLP Pipeline"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 88
