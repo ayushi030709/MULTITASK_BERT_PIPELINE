@@ -1,0 +1,297 @@
+# Dataset Profiling Report
+
+**Dataset:** `go_emotions`
+
+## Dataset Information
+
+### train
+
+- Rows: **43410**
+- Columns: **3**
+- Column Names: text, labels, id
+
+### validation
+
+- Rows: **5426**
+- Columns: **3**
+- Column Names: text, labels, id
+
+### test
+
+- Rows: **5427**
+- Columns: **3**
+- Column Names: text, labels, id
+
+---
+
+## Text Statistics
+
+### train
+
+- text_column: **text**
+- samples: **43410**
+- avg_characters: **68.4**
+- median_characters: **65.0**
+- min_characters: **2**
+- max_characters: **703**
+- 95_percentile: **131.0**
+- 99_percentile: **151.0**
+- avg_words: **12.84**
+- min_words: **1**
+- max_words: **33**
+
+### validation
+
+- text_column: **text**
+- samples: **5426**
+- avg_characters: **68.24**
+- median_characters: **64.0**
+- min_characters: **5**
+- max_characters: **187**
+- 95_percentile: **133.0**
+- 99_percentile: **152.0**
+- avg_words: **12.79**
+- min_words: **1**
+- max_words: **30**
+
+### test
+
+- text_column: **text**
+- samples: **5427**
+- avg_characters: **67.82**
+- median_characters: **65.0**
+- min_characters: **5**
+- max_characters: **184**
+- 95_percentile: **132.0**
+- 99_percentile: **148.0**
+- avg_words: **12.73**
+- min_words: **1**
+- max_words: **32**
+
+---
+
+## Missing Values
+
+### train
+
+- text: 0
+- labels: 0
+- id: 0
+
+### validation
+
+- text: 0
+- labels: 0
+- id: 0
+
+### test
+
+- text: 0
+- labels: 0
+- id: 0
+
+---
+
+## Duplicate Rows
+
+- **train** : 0
+- **validation** : 0
+- **test** : 0
+
+---
+
+## Label Distribution
+
+### train
+
+- 27: 14219
+- 2: 1567
+- 14: 596
+- 3: 2470
+- 26: 1060
+- 15: 2662
+- 8: 641
+- 20: 1581
+- 0: 4130
+- 6: 1368
+- 1: 2328
+- 4: 2939
+- 5: 1087
+- 12: 303
+- 22: 1110
+- 9: 1269
+- 16: 77
+- 25: 1326
+- 7: 2191
+- 17: 1452
+- 18: 2086
+- 13: 853
+- 10: 2022
+- 24: 545
+- 11: 793
+- 23: 153
+- 21: 111
+- 19: 164
+
+### validation
+
+- 27: 1766
+- 4: 397
+- 25: 143
+- 20: 209
+- 15: 358
+- 2: 195
+- 10: 292
+- 18: 252
+- 12: 35
+- 22: 127
+- 16: 13
+- 1: 303
+- 3: 303
+- 9: 163
+- 0: 488
+- 5: 153
+- 7: 248
+- 24: 68
+- 17: 172
+- 14: 90
+- 8: 77
+- 13: 96
+- 6: 152
+- 11: 97
+- 26: 129
+- 23: 18
+- 21: 15
+- 19: 21
+
+### test
+
+- 25: 156
+- 0: 504
+- 13: 103
+- 15: 352
+- 27: 1787
+- 24: 56
+- 3: 320
+- 10: 267
+- 1: 264
+- 18: 238
+- 8: 83
+- 7: 284
+- 14: 78
+- 6: 153
+- 20: 186
+- 4: 351
+- 5: 135
+- 17: 161
+- 26: 141
+- 9: 151
+- 22: 145
+- 2: 198
+- 11: 123
+- 12: 37
+- 19: 23
+- 21: 16
+- 23: 11
+- 16: 6
+
+---
+
+## Random Examples
+
+### train
+
+#### Example 1
+
+- **text** : The only way this works is if [NAME] is doing the Bird Box challenge and cant see the terms of the contract.
+- **labels** : [27]
+- **id** : edupnyh
+
+#### Example 2
+
+- **text** : Access should be hindered it's getting destroyed.
+- **labels** : [3]
+- **id** : ediy7lp
+
+#### Example 3
+
+- **text** : Totally fair. All I was trying to remind everyone is don't fall in love with your crushes.
+- **labels** : [4]
+- **id** : edv791a
+
+#### Example 4
+
+- **text** : I'm poly and jn the Raleigh area too, moved here for my wife's job, surprised to find so many people mention it haha. 
+- **labels** : [26]
+- **id** : ed8lzbw
+
+#### Example 5
+
+- **text** : Naw man Asain men have an easier time. Most of my asain friend are pretty boy. Fuckbois lol
+- **labels** : [1]
+- **id** : edlvvfv
+
+### validation
+
+#### Example 1
+
+- **text** : Haha, my apologies!
+- **labels** : [1]
+- **id** : ed7pe2z
+
+#### Example 2
+
+- **text** : It surprises me that he's a mod some days...
+- **labels** : [26]
+- **id** : eex0tm9
+
+#### Example 3
+
+- **text** : Seems to be fake. Checked the Morning Mix website, no articles from Nov 13^(th) 2018 that match the title shown.
+- **labels** : [27]
+- **id** : ee1vrgl
+
+#### Example 4
+
+- **text** : I have faith
+- **labels** : [27]
+- **id** : edw23ri
+
+#### Example 5
+
+- **text** : Oh. :[
+- **labels** : [27]
+- **id** : eddf4lj
+
+### test
+
+#### Example 1
+
+- **text** : Eff your video - love Canada 🇨🇦 Stupid geolock
+- **labels** : [2 3]
+- **id** : ee3cjuy
+
+#### Example 2
+
+- **text** : I know they are treated very well, but some of them do die.
+- **labels** : [3]
+- **id** : een5sns
+
+#### Example 3
+
+- **text** : Man I love this team. No I hate this team. No I love this team!
+- **labels** : [ 2 18]
+- **id** : ed69lg9
+
+#### Example 4
+
+- **text** : I can't watch Isco rotting on the bench and LV playing instead.
+- **labels** : [27]
+- **id** : ed6baxy
+
+#### Example 5
+
+- **text** : I hieaa i just trip out how your lds and not know or here. Nevermo here a d hears when i was a kid
+- **labels** : [27]
+- **id** : efe50zd
+
